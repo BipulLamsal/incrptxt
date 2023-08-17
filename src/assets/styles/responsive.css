@@ -1,0 +1,14 @@
+.message_block
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 768px;
+}
+@media (max-width:768px) {
+.message_block
+    {
+    flex-direction: column;
+    }
+    
+}
